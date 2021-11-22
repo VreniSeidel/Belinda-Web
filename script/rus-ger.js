@@ -4,7 +4,7 @@ let WORDS = null;
 $.ajax({
     'async': false,
     'global': false,
-    'url': "/list/dictionary_rus_eng.json",
+    'url': "/list/dictionary_rus_ger.json",
     'dataType': "json",
     'success': function (data) {
         WORDS = data;
